@@ -1,4 +1,4 @@
-# (https://kunaibox.github.io/MoneyFlow/)[MoneyFlow]
+# [https://kunaibox.github.io/MoneyFlow/](MoneyFlow)
 
 ## Purpose
 MoneyFlow is a simple web application designed to help users keep track of their earnings based on their hourly wage. The primary purpose of this project is to provide a tool that can assist individuals in managing their finances while also serving as a motivational tool to stay productive during work hours.
