@@ -19,7 +19,7 @@ The motivation behind creating this Hourly Wage Tracker stems from the desire to
 3. **Visualization**: The earnings are displayed in real-time on the Index page, motivating users to continue working and seeing their progress.
 
 ## How to Use
-1. Open the MoneyFlow website.
+1. Open the MoneyFlow [website](https://kunaibox.github.io/MoneyFlow/).
 2. Click on the hamburger icon in the top left corner to access the sidebar navigation.
 3. Navigate to the Configuration section and set your hourly wage, start, and end times.
 4. Start tracking to begin monitoring your earnings.
