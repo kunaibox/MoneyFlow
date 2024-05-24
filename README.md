@@ -29,4 +29,4 @@ The motivation behind creating this Hourly Wage Tracker stems from the desire to
 ## Contributions
 Contributions to the MoneyFlow project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to submit a pull request.
 
-
+<a href="https://buymeacoffee.com/kunaibox" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
