@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Darker gray background */
+    color: white; /* White text color */
+}
+
+.navbar {
+    background-color: #ff6600; /* Orange navbar */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar .hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin-right: auto;
+}
+
+.navbar span {
+    color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; /* Dark grey sidebar */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757; /* Lighter grey for hover */
+}
+
+.content {
+    margin: 20px;
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+#config label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#config input, #config select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px;
+}
+
+#config button {
+    padding: 10px 20px;
+    background-color: #ff6600; /* Orange button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#config button:hover {
+    background-color: #e65c00; /* Darker orange for hover */
+}
+
+.content#config {
+    display: none;
+}
+
+.content#index {
+    display: block;
+    text-align: center;
+}
+
+#moneyEarned {
+    font-size: 2em;
+    margin-top: 20px;
+    position: relative;
+    color: #ff6600; /* Orange text for money earned */
+}
+
+#moneyDisplay {
+    position: relative;
+    display: inline-block;
+}
+
+.increment {
+    color: green;
+    font-size: 1.5em; /* Larger text size */
+    position: absolute;
+    animation: fadeOut 1s forwards;
+    z-index: 1;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
